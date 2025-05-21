@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Typing Tutor Advanced</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Typing Tutor Advanced</h1>
+  <p>Latih kecepatan dan ketepatan mengetik kamu!</p>
+
+  <label for="difficulty">Pilih tingkat kesulitan:</label>
+  <select id="difficulty">
+    <option value="easy">Mudah</option>
+    <option value="medium" selected>Sedang</option>
+    <option value="hard">Susah</option>
+  </select>
+
+  <div id="wordDisplay" class="word-display"></div>
+  <input type="text" id="inputBox" placeholder="Ketik kata di sini" autocomplete="off" disabled />
+
+  <div class="info">
+    <p>Waktu: <span id="time">60</span> detik</p>
+    <p>Skor: <span id="score">0</span></p>
+    <p>Kecepatan: <span id="wpm">0</span> WPM</p>
+  </div>
+
+  <button id="startBtn">Mulai</button>
+  <button id="resetBtn" disabled>Reset</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

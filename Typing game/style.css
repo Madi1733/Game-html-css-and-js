@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+  background-color: #eef6fc;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 18px;
+}
+
+select {
+  font-size: 16px;
+  padding: 5px;
+  margin: 10px 0 20px 0;
+}
+
+.word-display {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #333;
+  letter-spacing: 2px;
+}
+
+.word-display .correct {
+  color: green;
+}
+
+.word-display .incorrect {
+  color: red;
+  text-decoration: underline;
+}
+
+#inputBox {
+  font-size: 24px;
+  padding: 10px;
+  width: 300px;
+}
+
+.info {
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px;
+}

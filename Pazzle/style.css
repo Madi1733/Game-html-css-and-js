@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+  .container {
+    text-align: center;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    max-width: 320px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #puzzle {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(3, 80px);
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .tile {
+    background: #4caf50;
+    color: white;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.3s;
+  }
+  
+  .tile.empty {
+    background: #ccc;
+    cursor: default;
+  }
+  
+  .tile:hover:not(.empty) {
+    background: #45a049;
+  }
+  
+  #shuffle-btn {
+    padding: 10px 20px;
+    background: #d62828;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  #shuffle-btn:hover {
+    background: #b22222;
+  }
+  
+  #message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #d62828;
+  }
+  
